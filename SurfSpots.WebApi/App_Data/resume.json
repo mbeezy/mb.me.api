@@ -1,24 +1,133 @@
 ﻿[
     {
-        "Position": "Position 1",
-        "Company": "Bridgepoint Education",
+        "Position": "Software Solutions Architect",
+        "Company": "Bridgepoint Education, Inc.",
         "FromDate": "01/01/2015",
         "ToDate": "",
         "Responsibilities": [
-            "I don't do anything",
-            "Blah Blah Blah",
-            "Hell there"
+            "Hands-on experience in developing proof-of-concepts, prototypes and architectural documentation",
+            "Created and transitioned solution implementation strategy to software developers",
+            "Acted in business analyst role to ensure complete and thorough project/enhancement requirements",
+            "Partnered with platform and infrastructure teams to develop a long-term strategy for software delivery and support",
+            "Developed and maintained technical documentation",
+            "Provided support for production and non-production environment issues",
+            "Made recommendations to improve development, personnel and culture processes",
+            "Maintained technical knowledge by working closely with subject matter experts across multiple applications"
         ]
     },
     {
-        "Position": "Position 2",
-        "Company": "Bridgepoint Education",
-        "FromDate": "01/01/2014",
+        "Position": "Software Development Manager",
+        "Company": "Bridgepoint Education, Inc.",
+        "FromDate": "03/10/2010",
         "ToDate": "01/01/2015",
         "Responsibilities": [
-            "I don't do anything",
-            "Blah Blah Blah",
-            "Hell there"
+            "Responsible for building a team to engineer new middle-tier REST web services written in WCF (.NET) with message queuing (MSMQ) to integrate with pre-existing applications/websites in PHP",
+            "Provided strategic direction and tactical support to coordinate and drive business initiatives",
+            "Worked with other technical leaders to assess, analyze and improve the SDLC",
+            "Developed a long-term strategy to improve the software group’s technical and domain competencies",
+            "Collaborated with other managers, architects and leaders across the organization to develop and deploy solutions",
+            "Worked with team to design and implement an ASP.NET MVC utility to easily manage production configuration and workflow decisions for real-time rule-based systems",
+            "Architected, developed and presented prototypes for innovation ideas",
+            "Provided technical leadership on troubleshooting and resolution of issues (Front-end development in PHP/HTML/CSS, middle-tier development in .NET/PHP, back-end DDL/DML development in MySQL/SQL Server)",
+            "Collaborated with software vendors to ensure that applications integrate seamlessly",
+            "Ensured that the application product owners are experiencing value in software releases by setting requirements gathering and quality improvement processes",
+            "Worked with support staff on software bug escalation process through multiple tiers",
+            "Provided productivity metrics on process improvements for development, support, and testing",
+            "Identified and implemented a plan to improve software processes to advance developer efficiency and quality",
+            "Worked with HR and recruiters for talent acquisitions"
+        ]
+    },
+    {
+        "Position": "Senior Software Developer",
+        "Company": "Bridgepoint Education, Inc.",
+        "FromDate": "10/01/2007",
+        "ToDate": "03/10/2010",
+        "Responsibilities": [
+            "Led a group of developers and ensured that projects utilized the full-cycle software system design, development, validation, deployment and support",
+            "Developed SOAP .NET web services that integrated with 3rd party vendor applications and legacy applications written in PHP",
+            "Enhanced and maintained PHP/MySQL applications and automated systems",
+            "Designed MySQL database schemas that would be utilized by various applications",
+            "Load tested high-traffic applications using JMeter",
+            "Participated in system design and architectures of enterprise software - web applications, middle-ware, and automated systems",
+            "Provided technical leadership on troubleshooting and resolution of issues",
+            "Monitored automated systems closely by creating an error notification system",
+            "Extensive interaction with the business analytics group and various other departments regarding project statuses and tasks",
+            "Worked closely with Technical Support group in order to train individuals on new software releases and changes"
+        ]
+    },
+    {
+        "Position": "Software Engineer",
+        "Company": "Priority/Omni Student Loans",
+        "FromDate": "03/01/2007",
+        "ToDate": "10/01/2007",
+        "Responsibilities": [
+            "Created Business and Data Access Object libraries, and designed library architecture",
+            "Developed new windows/web applications for newly formed departments",
+            "Modified existing applications according to business needs",
+            "Released Windows (Click-Once deployment) desktop applications to production",
+            "Instructed on details of new application and feature enhancements in existing applications",
+            "Interviewed candidates for .NET developer positions",
+            "Trained new hires in current business, system and application design",
+            "Created a transition plan for previously owned projects to newly hired developers"
+        ]
+    },
+    {
+        "Position": "Software Engineer",
+        "Company": "Upper Deck",
+        "FromDate": "07/01/2006",
+        "ToDate": "03/01/2007",
+        "Responsibilities": [
+            "Designed class architecture and database schema for new projects",
+            "Created custom user controls for commonly used web pages (.ascx)",
+            "Re-wrote user controls to server based controls for commonly used user controls",
+            "Added new modules to an internal tool (database table, .aspx page, data access library)",
+            "Implemented AJAX to web pages",
+            "Modified C# classes/ASPX pages according to business needs",
+            "Cleaned and normalized C# classes",
+            "Created reports using SQL Reporting Services",
+            "Developed Help Files using XML documentation tags within source code"
+        ]
+    },
+    {
+        "Position": "Software Engineer",
+        "Company": "Wyatt Watson Worldwide",
+        "FromDate": "04/01/2006",
+        "ToDate": "07/01/2006",
+        "Responsibilities": [
+            "Developed .Net Windows Forms for internal use (C#)",
+            "Created C# Data Access Libraries",
+            "Modified/Created stored procedures",
+            "Maintained software product written in classic ASP",
+            "Fixed bugs in classic ASP or stored procedures"
+        ]
+    },
+    {
+        "Position": "Software Engineer",
+        "Company": "SMS.ac",
+        "FromDate": "12/01/2005",
+        "ToDate": "04/01/2006",
+        "Responsibilities": [
+            "Modified C# applications/engines for SMS delivery ",
+            "Built new .Net web applications for new country integrations",
+            "Created Windows Forms modules in C#",
+            "Created stored procedures in accordance to DB standards",
+            "Supported carrier-messaging group with SQL reports and queries",
+            "Investigated revenue loss issues",
+            "Closely monitored message delivery"
+        ]
+    },
+    {
+        "Position": "Application Developer",
+        "Company": "HealthLine Systems, Inc.",
+        "FromDate": "12/01/2003",
+        "ToDate": "12/01/2005",
+        "Responsibilities": [
+            "Developed web-based applications ",
+            "Added to current software using ASP.Net (C#) ",
+            "Maintained current web software pages (ASP) ",
+            "Created custom web forms for clients (ASP.Net) ",
+            "Wrote merge routines in SQL Server 2000 for database merges (DTS)",
+            "Developed DTS packages to modify client databases"
         ]
     }
 ]
