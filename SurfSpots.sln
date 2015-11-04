@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurfSpots.WebApi", "SurfSpots.WebApi\SurfSpots.WebApi.csproj", "{9F4477FC-E244-4D92-91E2-C31C4149AA76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurfSpots.Client", "SurfSpots.Client\SurfSpots.Client.csproj", "{835B3901-A1A6-4D25-8E78-30E986618B21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F4477FC-E244-4D92-91E2-C31C4149AA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F4477FC-E244-4D92-91E2-C31C4149AA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F4477FC-E244-4D92-91E2-C31C4149AA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F4477FC-E244-4D92-91E2-C31C4149AA76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{835B3901-A1A6-4D25-8E78-30E986618B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835B3901-A1A6-4D25-8E78-30E986618B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835B3901-A1A6-4D25-8E78-30E986618B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835B3901-A1A6-4D25-8E78-30E986618B21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

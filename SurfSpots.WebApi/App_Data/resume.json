@@ -1,0 +1,24 @@
+﻿[
+    {
+        "Position": "Position 1",
+        "Company": "Bridgepoint Education",
+        "FromDate": "01/01/2015",
+        "ToDate": "",
+        "Responsibilities": [
+            "I don't do anything",
+            "Blah Blah Blah",
+            "Hell there"
+        ]
+    },
+    {
+        "Position": "Position 2",
+        "Company": "Bridgepoint Education",
+        "FromDate": "01/01/2014",
+        "ToDate": "01/01/2015",
+        "Responsibilities": [
+            "I don't do anything",
+            "Blah Blah Blah",
+            "Hell there"
+        ]
+    }
+]

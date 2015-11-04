@@ -1,0 +1,47 @@
+﻿[
+    {
+        "SpotId": 1,
+        "Name": "Beacons",
+        "Location": "Leucadia"
+    },
+    {
+        "SpotId": 2,
+        "Name": "Secrets",
+        "Location": "Leucadia"
+    },
+    {
+        "SpotId": 3,
+        "Name": "North Reef",
+        "Location": "Leucadia"
+    },
+    {
+        "SpotId": 4,
+        "Name": "White Fence",
+        "Location": "Leucadia"
+    },
+    {
+        "SpotId": 5,
+        "Name": "Phoebe",
+        "Location": "Leucadia"
+    },
+    {
+        "SpotId": 6,
+        "Name": "D Street",
+        "Location": "Encinitas"
+    },
+    {
+        "SpotId": 7,
+        "Name": "Swamis",
+        "Location": "Encinitas"
+    },
+    {
+        "SpotId": 8,
+        "Name": "Pipes",
+        "Location": "Encinitas"
+    },
+    {
+        "SpotId": 9,
+        "Name": "Traps",
+        "Location": "Encinitas"
+    }
+]
