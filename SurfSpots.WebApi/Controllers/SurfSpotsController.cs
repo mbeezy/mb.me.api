@@ -10,7 +10,7 @@ using System.Web.OData;
 
 namespace SurfSpots.WebApi.Controllers
 {
-    [EnableCorsAttribute("http://localhost:16751", "*", "*")]
+    [EnableCorsAttribute("http://localhost:1871,http://mb-me.azurewebsites.net", "*", "*")]
     public class SurfSpotsController : ApiController
     {
         // GET: api/SurfSpots

@@ -5,12 +5,14 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace SurfSpots.WebApi.Controllers
 {
     public class ResumeController : ApiController
     {
         // GET: api/Resume
+        [EnableCorsAttribute("http://localhost:1871,http://mb-me.azurewebsites.net", "*", "*")]
         public IEnumerable<Resume> Get()
         {
             var resumeRepository = new ResumeRepository();
