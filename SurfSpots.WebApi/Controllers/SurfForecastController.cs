@@ -10,7 +10,7 @@ using System.Web.Http.Cors;
 
 namespace SurfSpots.WebApi.Controllers
 {
-    [EnableCorsAttribute("http://localhost:1871,http://mb-me.azurewebsites.net", "*", "*")]
+    [EnableCorsAttribute("http://localhost:1871,http://mb-me.azurewebsites.net,http://mikebolanos.me", "*", "*")]
     public class SurfForecastController : ApiController
     {
         // GET: api/SurfForecast/5

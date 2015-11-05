@@ -12,7 +12,7 @@ namespace SurfSpots.WebApi.Controllers
     public class ResumeController : ApiController
     {
         // GET: api/Resume
-        [EnableCorsAttribute("http://localhost:1871,http://mb-me.azurewebsites.net", "*", "*")]
+        [EnableCorsAttribute("http://localhost:1871,http://mb-me.azurewebsites.net,http://mikebolanos.me", "*", "*")]
         public IEnumerable<Resume> Get()
         {
             var resumeRepository = new ResumeRepository();

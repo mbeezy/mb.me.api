@@ -11,7 +11,7 @@ using System.Web.OData;
 
 namespace SurfSpots.WebApi.Controllers
 {
-    [EnableCorsAttribute("http://localhost:1871,http://mb-me.azurewebsites.net", "*", "*")]
+    [EnableCorsAttribute("http://localhost:1871,http://mb-me.azurewebsites.net,http://mikebolanos.me", "*", "*")]
     public class SurfSpotsController : ApiController
     {
         // GET: api/SurfSpots
