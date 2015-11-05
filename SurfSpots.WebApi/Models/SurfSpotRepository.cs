@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Hosting;
 
@@ -62,6 +64,16 @@ namespace SurfSpots.WebApi.Models
             var json = JsonConvert.SerializeObject(surfSpots, Formatting.Indented);
             System.IO.File.WriteAllText(filePath, json);
             return true;
+        }
+
+        internal async Task<List<SurfSpot>> GetSanDiegoSurfSpotsAsync()
+        {
+            string uri = "http://api.spitcast.com/api/county/spots/san-diego/";
+
+            using (HttpClient client = new HttpClient())
+            {
+                return JsonConvert.DeserializeObject<List<SurfSpot>>(await client.GetStringAsync(uri));
+            }
         }
     }
 }

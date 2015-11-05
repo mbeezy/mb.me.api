@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Cors;
 using System.Web.OData;
@@ -14,11 +15,18 @@ namespace SurfSpots.WebApi.Controllers
     public class SurfSpotsController : ApiController
     {
         // GET: api/SurfSpots
-        [EnableQuery()]
-        public IQueryable<SurfSpot> Get()
+        //[EnableQuery()]
+        //public IQueryable<SurfSpot> Get()
+        //{
+        //    var surfSpotRepository = new SurfSpotRepository();
+        //    return surfSpotRepository.Retrieve().AsQueryable();
+        //}
+
+        public async Task<List<SurfSpot>> Get()
         {
             var surfSpotRepository = new SurfSpotRepository();
-            return surfSpotRepository.Retrieve().AsQueryable();
+            var results = await surfSpotRepository.GetSanDiegoSurfSpotsAsync();
+            return results;
         }
 
         // GET: api/SurfSpots/beacons
