@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Surf Spot Management</title>
+
+        <!-- Style sheets -->
+        <link href="Content/bootstrap.css" rel="stylesheet" />
+    </head>
+
+    <body ng-app="surfSpotApp">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="navbar-brand">Surf Spot Management</div>
+                </div>
+            </div>
+        </nav>
+
+        <!--<div class="container">
+            <div ng-include="'app/surfspots/surfSpotListView.html'"></div>
+        </div>-->
+
+        <div class="container">
+            <div ng-include="'app/surfspots/surfSpotEditView.html'"></div>
+        </div>
+
+        <!-- Library Scripts -->
+        <script src="scripts/angular.js"></script>
+        <script src="scripts/angular-resource.js"></script>
+
+        <!-- Application Script -->
+        <script src="app/app.js"></script>
+
+        <!-- Services -->
+        <script src="common/common.services.js"></script>
+        <script src="common/surfSpotResource.js"></script>
+
+        <!-- Controllers -->
+        <!--<script src="app/surfspots/surfSpotListCtrl.js"></script>-->
+        <script src="app/surfspots/surfSpotEditCtrl.js"></script>
+    </body>
+
+</html>

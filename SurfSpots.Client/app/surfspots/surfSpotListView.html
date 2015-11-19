@@ -1,0 +1,28 @@
+<div class="panel panel-primary" ng-controller="surfSpotListCtrl as vm">
+
+    <div class="panel-heading"
+         style="font-size:large">
+        Surf Spot List
+    </div>
+
+    <div class="panel-body">
+        <table class="table">
+
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Location</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="spot in vm.surfSpots">
+                    <td>{{ spot.spotId}}</td>
+                    <td>{{ spot.name }}</td>
+                    <td>{{ spot.location }}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</div>
