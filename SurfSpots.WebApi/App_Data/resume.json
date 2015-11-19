@@ -5,7 +5,7 @@
         "FromDate": "01/01/2015",
         "ToDate": "",
         "Responsibilities": [
-            "Hands-on experience in developing proof-of-concepts, prototypes and architectural documentation",
+            "Implemented proof-of-concepts, prototypes and architectural documentation",
             "Created and transitioned solution implementation strategy to software developers",
             "Acted in business analyst role to ensure complete and thorough project/enhancement requirements",
             "Partnered with platform and infrastructure teams to develop a long-term strategy for software delivery and support",
@@ -22,12 +22,12 @@
         "ToDate": "01/01/2015",
         "Responsibilities": [
             "Responsible for building a team to engineer new middle-tier REST web services written in WCF (.NET) with message queuing (MSMQ) to integrate with pre-existing applications/websites in PHP",
+            "Led a team of 8 developers and other cross-functional staff",
             "Provided strategic direction and tactical support to coordinate and drive business initiatives",
             "Worked with other technical leaders to assess, analyze and improve the SDLC",
             "Developed a long-term strategy to improve the software group’s technical and domain competencies",
             "Collaborated with other managers, architects and leaders across the organization to develop and deploy solutions",
             "Worked with team to design and implement an ASP.NET MVC utility to easily manage production configuration and workflow decisions for real-time rule-based systems",
-            "Architected, developed and presented prototypes for innovation ideas",
             "Provided technical leadership on troubleshooting and resolution of issues (Front-end development in PHP/HTML/CSS, middle-tier development in .NET/PHP, back-end DDL/DML development in MySQL/SQL Server)",
             "Collaborated with software vendors to ensure that applications integrate seamlessly",
             "Ensured that the application product owners are experiencing value in software releases by setting requirements gathering and quality improvement processes",
